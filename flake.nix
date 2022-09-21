@@ -27,7 +27,7 @@
               src = ./.;
             } + /node_modules;
           package =
-            with purs-nix.ps-pkgs;
+            with purs-nix.ps-pkgs-ns.lovelaceAcademy;
             {
               version = "6.0.0";
               dependencies =

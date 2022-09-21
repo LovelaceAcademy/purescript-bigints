@@ -486,11 +486,11 @@
         "utils": "utils_4"
       },
       "locked": {
-        "lastModified": 1663704250,
-        "narHash": "sha256-/0DKVa1cTV/EgUV+jenCGs8q/m20oaTnwVSpLY04q7w=",
+        "lastModified": 1663791895,
+        "narHash": "sha256-OK/DlPH36ivbvYeVXMvnQ9hQbYILevz1i+oUg1B+1Xw=",
         "owner": "LovelaceAcademy",
         "repo": "purs-nix",
-        "rev": "fc8446e68a92de3ec6c5a0234acf7f21c82cd257",
+        "rev": "058d8d5611eb776027e5c5b456f50dd0be82e4e7",
         "type": "github"
       },
       "original": {
