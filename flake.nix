@@ -26,9 +26,18 @@
             {
               src = ./.;
             } + /node_modules;
-          package = with purs-nix.ps-pkgs; bigints // {
-            foreign."Data.BigInt" = { inherit node_modules; };
-          };
+          package =
+            with purs-nix.ps-pkgs;
+            {
+              version = "6.0.0";
+              dependencies =
+                [
+                  integers
+                  maybe
+                  strings
+                ];
+              foreign."Data.BigInt" = { inherit node_modules; };
+            };
           ps = purs-nix.purs package;
         in
         {
